@@ -11,8 +11,8 @@ using RealEstateApi.Data;
 namespace RealEstateApi.Migrations
 {
     [DbContext(typeof(ApiDbContext))]
-    [Migration("20240725143728_InitialCreate")]
-    partial class InitialCreate
+    [Migration("20250317123404_InitialMigration")]
+    partial class InitialMigration
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
